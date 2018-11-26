@@ -25,6 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*! @protocol OIDAuthStateErrorDelegate
     @brief Delegate of the OIDAuthState used to monitor errors.
  */
+NS_SWIFT_NAME(AuthStateErrorDelegate)
 @protocol OIDAuthStateErrorDelegate <NSObject>
 
 /*! @brief Called when an authentication occurs, which indicates the auth session is invalid.

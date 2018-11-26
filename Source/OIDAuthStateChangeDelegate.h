@@ -25,6 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*! @protocol OIDAuthStateChangeDelegate
     @brief Delegate of the OIDAuthState used to monitor various changes in state.
  */
+NS_SWIFT_NAME(AuthStateChangeDelegate)
 @protocol OIDAuthStateChangeDelegate <NSObject>
 
 /*! @brief Called when the authorization state changes and any backing storage needs to be updated.

@@ -18,16 +18,17 @@
 
 #import "OIDClientMetadataParameters.h"
 
+NS_SWIFT_NAME(TokenEndpointAuthenticationMethodParam)
 NSString *const OIDTokenEndpointAuthenticationMethodParam = @"token_endpoint_auth_method";
-
+NS_SWIFT_NAME(ApplicationTypeParam)
 NSString *const OIDApplicationTypeParam = @"application_type";
-
+NS_SWIFT_NAME(RedirectURIsParam)
 NSString *const OIDRedirectURIsParam = @"redirect_uris";
-
+NS_SWIFT_NAME(ResponseTypesParam)
 NSString *const OIDResponseTypesParam = @"response_types";
-
+NS_SWIFT_NAME(GrantTypesParam)
 NSString *const OIDGrantTypesParam = @"grant_types";
-
+NS_SWIFT_NAME(SubjectTypeParam)
 NSString *const OIDSubjectTypeParam = @"subject_type";
-
+NS_SWIFT_NAME(ApplicationTypeNative)
 NSString *const OIDApplicationTypeNative = @"native";

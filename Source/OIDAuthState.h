@@ -51,6 +51,7 @@ typedef void (^OIDAuthStateAuthorizationCallback)(OIDAuthState *_Nullable authSt
 /*! @brief A convenience class that retains the auth state between @c OIDAuthorizationResponse%s
         and @c OIDTokenResponse%s.
  */
+NS_SWIFT_NAME(AuthState)
 @interface OIDAuthState : NSObject <NSSecureCoding>
 
 /*! @brief The most recent refresh token received from the server.
